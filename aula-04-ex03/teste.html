@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Formulário de Informações Pessoais</title>
+</head>
+<body>
+<form action="/submit-form" method="post">
+  <fieldset>
+    <legend>Informações Pessoais:</legend>
+    <label for="gender-male">Gênero:</label><br>
+    <input type="radio" id="gender-male" name="gender" value="male">Masculino<br>
+    <input type="radio" id="gender-female" name="gender" value="female">Feminino<br>
+    <input type="radio" id="gender-other" name="gender" value="other">Outro<br><br>
+    <label for="first-name">Nome:</label><br>
+    <input type="text" id="first-name" name="first-name"><br>
+    <label for="last-name">Sobrenome:</label><br>
+    <input type="text" id="last-name" name="last-name"><br>
+    <label for="size">Tamanho:</label><br>
+    <select id="size" name="size">
+      <option value="grande">Grande</option>
+    </select><br><br>
+    <input type="submit" value="Enviar">
+  </fieldset>
+</form>
+</body>
+</html>
